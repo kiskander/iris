@@ -112,7 +112,7 @@ It won't push a change without explicit approval. It won't skip pre-condition ch
 
 ## License
 
-[Add your license here.]
+MIT — see [LICENSE](LICENSE).
 
 ## Credits
 
