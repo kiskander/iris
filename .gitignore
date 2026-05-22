@@ -1,0 +1,7 @@
+.DS_Store
+.claude/settings.local.json
+environment/artifacts.md
+automation/artifacts.md
+
+# Environment-specific MCP credentials — never commit
+.mcp.json

@@ -1,0 +1,20 @@
+# Environment Notes
+
+_This file is populated by IRIS during initialization. When you see this placeholder text, initialization has not yet been run._
+
+To populate this file:
+
+1. Ensure the MCPs IRIS needs are connected — ticketing, device management, source of truth
+2. Run `/iris discover` — or simply ask IRIS to work a ticket and it will initialize on first use
+3. IRIS will discover the environment and overwrite this file with what it learned
+
+To refresh this file after the environment changes:
+
+- Run `/iris discover` — IRIS will re-run discovery, diff against the current contents, and update only what's new or changed
+
+---
+
+## Status
+
+- **Initialized:** No
+- **Last discovery:** Never

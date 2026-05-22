@@ -1,0 +1,18 @@
+# Automation Artifacts
+
+_This file is populated by IRIS as it learns the automation artifacts you have placed in `scripts/`. When you see this placeholder text, no artifacts have been learned yet._
+
+To populate this file:
+
+1. Drop an automation artifact into `~/iris/automation/scripts/`
+2. Tell IRIS to learn it — or IRIS will notice it the next time it runs
+3. IRIS will read the artifact, install any dependencies, summarize what it does, and append an entry here
+
+Each entry in this file describes one artifact IRIS can use during ticket workflows.
+
+---
+
+## Status
+
+- **Artifacts learned:** 0
+- **Last learning run:** Never

@@ -1,0 +1,33 @@
+{
+  "mcpServers": {
+    "servicenow": {
+      "command": "uvx",
+      "args": ["servicenow-mcp"],
+      "env": {
+        "SERVICENOW_INSTANCE_URL": "https://YOUR_INSTANCE.service-now.com",
+        "SERVICENOW_USERNAME": "YOUR_USERNAME",
+        "SERVICENOW_PASSWORD": "YOUR_PASSWORD"
+      }
+    },
+    "cml": {
+      "command": "uvx",
+      "args": ["cml-mcp[pyats]"],
+      "env": {
+        "CML_URL": "https://YOUR_CML_INSTANCE",
+        "CML_USERNAME": "YOUR_CML_USERNAME",
+        "CML_PASSWORD": "YOUR_CML_PASSWORD",
+        "PYATS_USERNAME": "YOUR_DEVICE_USERNAME",
+        "PYATS_PASSWORD": "YOUR_DEVICE_PASSWORD",
+        "PYATS_AUTH_PASS": "YOUR_DEVICE_ENABLE_PASSWORD"
+      }
+    },
+    "netbox": {
+      "command": "uvx",
+      "args": ["netbox-mcp"],
+      "env": {
+        "NETBOX_URL": "https://YOUR_NETBOX_INSTANCE",
+        "NETBOX_TOKEN": "YOUR_NETBOX_API_TOKEN"
+      }
+    }
+  }
+}
